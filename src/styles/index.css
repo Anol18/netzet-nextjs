@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-background: #010101;
+	--color-foreground: #ffffff;
+	--color-primary: #fc004e;
+	--color-secondary: #10cbe0;
+	--text-primary: #ffffff;
+	--text-secondary: #a0a0a0;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+} */
+
+body {
+	color: var(--color-foreground);
+	background: var(--color-background);
+}
+
+/* 📱 Mobile Frame (375px)
+📱 Tablet Frame (768px) 
+🖥️ Desktop Frame (1440px) */
