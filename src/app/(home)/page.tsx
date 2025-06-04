@@ -1,3 +1,4 @@
+import CallToActionButton from "./_components/CallToActionButton";
 import HeroTitleContent from "./_components/HeroTitleContent";
 import ListContent from "./_components/ListContent";
 import SubTitleContent from "./_components/SubTitleContent";
@@ -9,6 +10,7 @@ export default function Home() {
 				<HeroTitleContent />
 				<SubTitleContent />
 				<ListContent />
+				<CallToActionButton/>
 			</div>
 		</>
 	);

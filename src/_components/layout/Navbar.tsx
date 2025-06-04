@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="">
 			<div className="flex items-center justify-between">
 				<div className="pt-[2.27rem]">
-					<Image src={"/logo.png"} alt="logo" width={169} height={72} />
+					<Image src={"/logo.png"} alt="logo" width={173.12} height={74} />
 				</div>
 				<div className="flex  gap-[46px] pb-[16px] max-md:hidden ">
 					<Text variant={"navText"} color={"secondary"} weight={"navText"}>
