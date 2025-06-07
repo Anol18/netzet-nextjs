@@ -1,12 +1,22 @@
-import Image from "next/image";
-import heroImg from "@/assets/img/hero-image.webp";
-const HeroImage = () => {
+import Image, { StaticImageData } from "next/image";
+
+const HeroImage = ({
+  className = "",
+  imgSrc,
+}: {
+  className: string;
+  imgSrc: string | StaticImageData;
+}) => {
   return (
-    <div className="absolute right-[32px] top-[22px] -z-10 h-full w-[51%]">
+    <div className={className}>
       <Image
-        src={heroImg}
+        src={imgSrc}
         alt="hero-image"
-        className=" object-cover pointer-events-none select-none w-[666px] h-[679px]"
+        className="md:object-cover pointer-events-none select-none md:w-[666px] md:h-[679px] w-[400px] h-[456px]"
+        priority
+        placeholder="blur"
+        sizes="(max-width: 768px) 400px, 666px"
+        quality={85}
       />
     </div>
   );

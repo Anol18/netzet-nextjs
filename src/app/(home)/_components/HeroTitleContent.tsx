@@ -1,5 +1,4 @@
 import { Text } from "@/_components/ui/Text";
-import { urbanist } from "@/libs/font";
 
 const HeroTitleContent = () => {
   return (
@@ -7,7 +6,7 @@ const HeroTitleContent = () => {
       as="p"
       variant={"heroTitle"}
       weight={"heroTitle"}
-      className={`${urbanist.className} pl-[4px] `}
+      className={`font-urbanist md:pl-[4px] text-center md:text-start max-sm:px-1  pt-[4px] pl-[5px] md:pt-0`}
     >
       Want to Turn Social Media Into a Profitable Career?
     </Text>

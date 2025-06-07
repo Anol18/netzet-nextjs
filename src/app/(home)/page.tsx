@@ -7,13 +7,14 @@ import SubTitleContent from "./_components/SubTitleContent";
 
 export default function Home() {
   return (
-    <div>
-      <div className="w-[520px] z-10 ">
+    <div className="relative pt-[220px] md:pt-0 ">
+      <div className="md:w-[520px] z-10 p-5 md:p-0 ">
         <HeroTitleContent />
         <SubTitleContent />
         <ListContent />
-        <CallToActionButton />
+        <CallToActionButton className="pt-[8px] pl-[4px] md:block hidden" />
         <Footer />
+        <CallToActionButton className="flex flex-col justify-center items-center  md:hidden  pt-[10px]" />
       </div>
     </div>
   );

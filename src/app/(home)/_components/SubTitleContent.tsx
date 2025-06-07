@@ -1,5 +1,4 @@
 import { Text } from "@/_components/ui/Text";
-import { urbanist } from "@/libs/font";
 
 const SubTitleContent = () => {
   return (
@@ -7,7 +6,7 @@ const SubTitleContent = () => {
       as="p"
       variant={"heroTitle"}
       weight={"heroTitle"}
-      className={`${urbanist.className} text-secondary [text-shadow:0px_4px_4px_#fc004e]  pl-[4px]`}
+      className={`font-urbanist text-secondary [text-shadow:0px_4px_4px_#fc004e] md:text-start text-center   md:px-1 px-2`}
     >
       Discover your way to success with Fametonic:
     </Text>
