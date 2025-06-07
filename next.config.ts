@@ -13,9 +13,8 @@ const nextConfig: NextConfig = {
   },
   compress: true,
   poweredByHeader: false,
-  // generateEtags:false,
   trailingSlash: false,
-  /* config options here */
+  generateEtags: false,
 };
 
 export default nextConfig;

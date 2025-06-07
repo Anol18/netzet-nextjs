@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="flex items-center justify-between ">
-        <div className="md:pt-[2.27rem] pt-0 mt-4 md:mt-0 pl-[142px] md:pl-0">
+        <div className="md:pt-[35.1px] pt-0 mt-4 md:mt-0 pl-[142px] md:pl-0">
           <div className="md:w-[173.12px] md:h-[74px] w-[105.38px] h-[45px] relative pl-5">
             <Image src={"/logo.png"} alt="logo" fill />
           </div>

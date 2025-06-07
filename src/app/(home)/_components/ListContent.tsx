@@ -25,14 +25,12 @@ const data = [
 
 const ListContent = () => {
   return (
-    <div className="md:pt-[15px] pt-[21px] md:space-y-[12px] space-y-[10px] md:pl-[4px] pl-[1px]">
+    <div className="md:pt-[15px] pt-[21px] md:space-y-[13px] space-y-[10px] md:pl-[4px] pl-[1px]">
       {data.map(({ id, label }) => {
         return (
           <div
             key={id}
-            className={`flex md:gap-[10px] gap-[8px] items-center ${
-              id == 4 && "pt-[2px]"
-            }`}
+            className={`flex md:gap-[10px] gap-[8px] items-center `}
           >
             <div className="w-[22px] h-[22px] relative flex-shrink-0">
               <Image
